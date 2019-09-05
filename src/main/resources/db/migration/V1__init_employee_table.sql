@@ -1,5 +1,6 @@
-CREATE TABLE employee (
-  id INTEGER PRIMARY KEY,
-  name VARCHAR(64) NOT NULL,
-  age   int(4) NOT NULL
+CREATE TABLE expressDelivery (
+  wayBillNum INTEGER PRIMARY KEY,
+  addressee VARCHAR(64) NOT NULL,
+  telephone VARCHAR(64) NOT NULL,
+  weight VARCHAR(64) NOT NULL
 );
