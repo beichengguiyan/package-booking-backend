@@ -6,6 +6,6 @@
     </select>
 
     <insert id="insert" parameterType="tws.entity.ExpressDelivery">
-       insert into `expressDelivery`(`wayBillNum`,`addressee`,`telephone`,`weight`) values(#{expressDelivery.wayBillNum},#{expressDelivery.addressee},#{expressDelivery.telephone},#{expressDelivery.weight});
+       insert into `expressDelivery`(`wayBillNum`,`addressee`,`telephone`,`weight`,`state`,`appointmentTime`) values(#{expressDelivery.wayBillNum},#{expressDelivery.addressee},#{expressDelivery.telephone},#{expressDelivery.weight},#{expressDelivery.state},#{expressDelivery.appointmentTime});
     </insert>
 </mapper>
